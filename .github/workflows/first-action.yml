@@ -2,7 +2,7 @@ name: first-workflow
 on: workflow_dispatch
 jobs:
   first-job:
-  runs-on: ubuntu-lates
+  runs-on: ubuntu-latest
   steps:
     - name: pring greeting
       run: echo "Hello World!"
